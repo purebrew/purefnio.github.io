@@ -1,0 +1,20 @@
+#___gatsby {
+  background-image: url(../images/pravcice-gate.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.HeaderBox {
+  margin: 0 auto;
+  opacity: 0;
+  color: white;
+  text-align: center;
+  line-height: 250px;
+  background-color: black;
+  max-width: 250px;
+  min-height: 250px;
+}
+
+.HeaderBox.h2 {
+  line-height: 250px;
+}
