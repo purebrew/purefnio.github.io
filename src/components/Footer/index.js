@@ -15,18 +15,18 @@ const Footer = () => (
         padding: '1.45rem 1.0875rem',
       }}
     >
-      <h3 style={{ margin: 0 }}>
         Contact
-      </h3>
         <a
-          href="mailto:michal@purefn.io"
+          href="mailto:info@purefn.io"
           style={{
             color: 'white',
             textDecoration: 'none',
           }}
         >
-          michal@purefn.io
+          info@purefn.io
         </a>
+
+        Pure Brew Limited
 
     </div>
   </footer>
