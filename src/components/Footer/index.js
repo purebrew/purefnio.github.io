@@ -17,7 +17,7 @@ const Footer = () => (
     >
         <h3 style={{ margin: 0 }}>
           Contact
-        </h3>	
+        </h3>
         <a
           href="mailto:info@purefn.io"
           style={{
