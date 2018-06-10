@@ -23,7 +23,7 @@ const Header = () => (
             textDecoration: 'none',
           }}
         >
-          <img src={logo} alt="pure fn" height="50" />
+          <img src={logo} alt="pure fn" height="60" />
         </Link>
       </h1>
     </div>

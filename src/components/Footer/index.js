@@ -15,7 +15,9 @@ const Footer = () => (
         padding: '1.45rem 1.0875rem',
       }}
     >
-        Contact
+        <h3 style={{ margin: 0 }}>
+          Contact
+        </h3>	
         <a
           href="mailto:info@purefn.io"
           style={{
@@ -25,7 +27,7 @@ const Footer = () => (
         >
           info@purefn.io
         </a>
-        
+
     </div>
   </footer>
 )
