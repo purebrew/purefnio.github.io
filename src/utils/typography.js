@@ -14,7 +14,7 @@ theme.overrideThemeStyles = ({ rhythm }, options) => ({
   },
   '#___gatsby': {
     flex: '1 0 auto',
-    backgroundImage: background,
+    backgroundImage: `url(${background})`,
     backgroundRepeat: 'no-repeat',
     backgroundSize: 'cover',
   }
