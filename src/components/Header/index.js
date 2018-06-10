@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import logo from '../../images/800x200-white.png'
+import logo from '../../images/logo.png'
 
 const Header = () => (
   <div
@@ -23,7 +23,7 @@ const Header = () => (
             textDecoration: 'none',
           }}
         >
-          <img src={logo} alt="pure fn" height="50" />
+          <img src={logo} alt="pure fn" height="96" />
         </Link>
       </h1>
     </div>
