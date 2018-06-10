@@ -12,7 +12,7 @@ const TemplateWrapper = ({ children }) => (
     <Helmet
       title="Pure Fn - Pure Brew Limited - Software Architecture, Distributed Systems, POCs and Softwared Delivery "
       meta={[
-        { name: 'description', content: 'Pure Brew Limited is a software consulting company providing architecture reviews, building proof of concepts and develops and delivers software' },
+        { name: 'description', content: 'Pure Brew Limited is a software consulting company providing architecture review, proof of concepts and development and delivery of software' },
         { name: 'keywords', content: 'software consultancy, distributed systems, software architecture reviews, software development, software delivery' },
       ]}
     />

@@ -4,8 +4,11 @@ import Link from 'gatsby-link'
 const IndexPage = () => (
   <div>
     <h1 style={{color: 'white'}}>Work in Progress</h1>
-    <p>Pure Brew Limited is a new software consulting firm specialising in full-stack development, distributed systems and serverless applications.
-       Provides expertise and services from architectural reviews over POCs and MVPs to software development and delivery.</p>
+
+    <p>The <i>pure fn</i> is a partnership of passionate software developers providing software consulting specialising in full-stack development, distributed systems and serverless applications.
+       Members with over 10 years of experience in the IT provide expertise and services such as architectural reviews and POCs.
+       Reyling on the remote work and agile methodologies delivering software projects in the UK, CZ and DE.
+    </p>
 
     <h2>Services</h2>
        <ul>
@@ -21,7 +24,7 @@ const IndexPage = () => (
          </li>
          <li>
            <p>
-             Software Development and Delivery
+             Software Development and Delivery - full remote
            </p>
          </li>
        </ul>
@@ -39,7 +42,7 @@ const IndexPage = () => (
       </li>
       <li>
         <p>
-          Cloud Environemnts and Automatic Deployments
+          Cloud Environemnts and Automation
         </p>
       </li>
 
