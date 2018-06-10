@@ -25,9 +25,7 @@ const Footer = () => (
         >
           info@purefn.io
         </a>
-
-        Pure Brew Limited
-
+        
     </div>
   </footer>
 )
