@@ -5,7 +5,7 @@ import theme from "typography-theme-lawton";
 theme.overrideThemeStyles = ({ rhythm }, options) => ({
   html: {
     height: '100%',
-    text-color: 'white',
+    textColor: 'white',
   },
   body: {
     height: '100%',
