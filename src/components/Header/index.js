@@ -5,7 +5,7 @@ import logo from '../../images/logo.png'
 const Header = () => (
   <div
     style={{
-      background: '#17BDBA',
+      background: 'white',
     }}
   >
     <div

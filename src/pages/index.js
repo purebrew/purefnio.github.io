@@ -3,11 +3,9 @@ import Link from 'gatsby-link'
 
 const IndexPage = () => (
   <div>
-    <h1 style={{color: 'white'}}>Work in Progress</h1>
-
-    <p>The <i>pure fn</i> is a partnership of passionate software developers providing software consulting specialising in full-stack development, distributed systems and serverless applications.
+    <p>We're a group of passionate software developers providing software consulting specialising in full-stack development, distributed systems and serverless applications.
        Members with over 10 years of experience in the IT provide expertise and services such as architectural reviews and POCs.
-       Reyling on the remote work and agile methodologies delivering software projects in the UK, CZ and DE.
+       Relying on the remote work and agile methodologies delivering software projects in the UK, CZ and DE.
     </p>
 
     <h2>Services</h2>
@@ -24,7 +22,7 @@ const IndexPage = () => (
          </li>
          <li>
            <p>
-             Software Development and Delivery - full remote
+             Software Development and Delivery - Full Remote
            </p>
          </li>
        </ul>

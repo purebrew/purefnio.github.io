@@ -10,24 +10,13 @@ import './index.css'
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
-      title="Pure Fn - Pure Brew Limited - Software Architecture, Distributed Systems, POCs and Softwared Delivery "
+      title="purefn - Passionate Software Developers"
       meta={[
-        { name: 'description', content: 'Pure Brew Limited is a software consulting company providing architecture review, proof of concepts and development and delivery of software' },
         { name: 'keywords', content: 'software consultancy, distributed systems, software architecture reviews, software development, software delivery' },
       ]}
     />
     <Header pages={children()} />
-    <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 750,
-        padding: '1rem 1.0875rem 1.45rem',
-        marginTop: '1rem',
-        opacity: 0.6,
-        color: 'white',
-        backgroundColor: 'black',
-      }}
-    >
+    <div className='page-body'>
       {children()}
     </div>
   </div>)

@@ -1,0 +1,14 @@
+.page-footer {
+  background-color: white;
+  flex-shrink: 0;
+}
+
+.page-footer div {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 1.45rem 1.0875rem;
+}
+
+.page-footer h3 {
+  color: black;
+}
