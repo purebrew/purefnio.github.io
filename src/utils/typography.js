@@ -54,6 +54,7 @@ theme.overrideThemeStyles = ({ rhythm }, options) => ({
     color: 'white',
     backgroundColor: 'rgb(0,0,0, 0.8)',
     fontFamily: 'sans-serif',
+    textAlign: 'justify',
   }
 })
 
