@@ -1,6 +1,13 @@
 /* eslint  react/prop-types: 0 */
 import React from "react";
+
 import Footer from './components/Footer'
+
+import appleTouchIcon from './images/favicon/apple-touch-icon.png'
+import safariPinedTabIcon from './images/favicon/safari-pinned-tab.svg'
+import favicon from './images/favicon/favicon.ico'
+import favicon32 from './images/favicon/favicon-32x32.png'
+import favicon16 from './images/favicon/favicon-16x16.png'
 
 module.exports = class HTML extends React.Component {
   render() {
@@ -13,19 +20,14 @@ module.exports = class HTML extends React.Component {
           {this.props.headComponents}
           <meta name="apple-mobile-web-app-capable" content="yes" />
           <meta name="apple-mobile-web-app-status-bar-style" content="#D0E0D8" />
-          <meta name="apple-mobile-web-app-title" content="Lazywill" />
-          <link rel="apple-touch-icon" href="/icons/apple-icon-57x57.png" sizes="57x57" />
-          <link rel="apple-touch-icon" href="/icons/apple-icon-60x60.png" sizes="60x60" />
-          <link rel="apple-touch-icon" href="/icons/apple-icon-72x72.png" sizes="72x72" />
-          <link rel="apple-touch-icon" href="/icons/apple-icon-76x76.png" sizes="76x76" />
-          <link rel="apple-touch-icon" href="/icons/apple-icon-114x114.png" sizes="114x114" />
-          <link rel="apple-touch-icon" href="/icons/apple-icon-120x120.png" sizes="120x120" />
-          <link rel="apple-touch-icon" href="/icons/apple-icon-144x144.png" sizes="144x144" />
-          <link rel="apple-touch-icon" href="/icons/apple-icon-152x152.png" sizes="152x152" />
-          <link rel="apple-touch-icon" href="/icons/apple-icon-180x180.png" sizes="180x180" />
-          <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png" />
-          <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png" />
-          <link rel="icon" type="image/png" sizes="96x96" href="/icons/favicon-96x96.png" />
+          <meta name="apple-mobile-web-app-title" content="purefn.io engineering" />
+          <link rel="apple-touch-icon" sizes="180x180" href={appleTouchIcon}/>
+          <link rel="shortcut icon" href={favicon} />
+          <link rel="icon" type="image/png" sizes="32x32" href={favicon32}/>
+          <link rel="icon" type="image/png" sizes="16x16" href={favicon16}/> 
+          <link rel="mask-icon" href={safariPinedTabIcon} color="#5bbad5"/>
+          <meta name="msapplication-TileColor" content="#da532c"/>
+          <meta name="theme-color" content="#ffffff"/>
         </head>
         <body {...this.props.bodyAttributes}>
           {this.props.preBodyComponents}

@@ -4,13 +4,20 @@ import Link from 'gatsby-link'
 const IndexPage = () => (
   <div>
     <p>
-      We are a group of passionate software developers providing software consulting specialising in full-stack development, distributed systems and serverless applications.
-      Members with over 10 years of experience in the IT provide expertise and services such as architectural reviews and POCs.
-      While relying on the remote work and agile methodologies, we are delivering software projects in the UK, CZ and DE.
+      We are a group of passionate software developers providing software
+      consulting specialising in full-stack development, distributed systems and
+      serverless applications. Members with over 10 years of experience in the
+      IT segment provide expertise and services such as architectural reviews
+      and Proof of Concepts.
+    </p>
+    <p>
+      While relying on the remote work and agile methodologies, we are
+      delivering software projects in the United Kingdom, Czech Republic and
+      Germany.
     </p>
 
-    <h2>Services</h2>
-    <ul>
+    <h3>You can expect us to do</h3>
+    <ul style={{ listStyle: 'none' }}>
       <li>
         <p>Architectural Reviews</p>
       </li>
@@ -21,8 +28,8 @@ const IndexPage = () => (
         <p>Software Development and Delivery</p>
       </li>
     </ul>
-    <h2>Areas of Expertise</h2>
-    <ul>
+    <h3>We master following areas of Expertise</h3>
+    <ul style={{ listStyle: 'none' }}>
       <li>
         <p>Distributed Systems</p>
       </li>
@@ -33,8 +40,16 @@ const IndexPage = () => (
         <p>Cloud Environments and Automation</p>
       </li>
     </ul>
-    <p>
-      <b>Contact us if you need help to build great solutions.</b>
+    <p style={{ marginTop: '20px' }}>
+      Contact us if you need help to build great solutions -{' '}
+      <a
+        style={{
+          color: '#17bdba',
+        }}
+        href="mailto:info@purefn.io"
+      >
+        info@purefn.io
+      </a>
     </p>
   </div>
 )
