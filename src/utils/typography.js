@@ -1,7 +1,7 @@
 import Typography from "typography";
 
 import theme from "typography-theme-lawton";
-import background from '../images/background.jpg'
+import background from '../images/jakub-sejkora-42085-unsplash.jpg'
 
 theme.overrideThemeStyles = ({ rhythm }, options) => ({
   html: {
@@ -40,17 +40,18 @@ theme.overrideThemeStyles = ({ rhythm }, options) => ({
   },
   '.footer': {
     position: 'relative',
-    clear: 'both'
-  },
-  '.footer h3': {
-    margin: 0,
-    color: '#494947'
+    clear: 'both',
+    textAlign: 'center',
+    color: '#494947',
+    minHeight: '3rem',
+    fontFamily: 'sans-serif',
+    fontSize: '0.75rem'
   },
   '.content': {
     margin: '0 auto',
     maxWidth: '750px',
     padding: '1rem 1.0875rem 1.45rem',
-    marginTop: '1rem',
+    marginTop: '2.5rem',
     color: 'white',
     backgroundColor: 'rgb(0,0,0, 0.8)',
     fontFamily: 'sans-serif',
