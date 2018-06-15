@@ -12,8 +12,7 @@ const IndexPage = () => (
     </p>
     <p>
       While relying on the remote work and agile methodologies, we are
-      delivering software projects in the United Kingdom, Czech Republic and
-      Germany.
+      delivering software projects in the United Kingdom and Czech Republic.
     </p>
 
     <h3>You can expect us to do</h3>
@@ -28,7 +27,7 @@ const IndexPage = () => (
         <p>Software Development and Delivery</p>
       </li>
     </ul>
-    <h3>We master following areas of Expertise</h3>
+    <h3>We have expertise in the following areas</h3>
     <ul style={{ listStyle: 'none' }}>
       <li>
         <p>Distributed Systems</p>
