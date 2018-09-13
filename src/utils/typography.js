@@ -1,7 +1,6 @@
 import Typography from "typography";
 
 import theme from "typography-theme-lawton";
-import background from '../images/jakub-sejkora-42085-unsplash.jpg'
 
 theme.overrideThemeStyles = ({ rhythm }, options) => ({
   html: {
@@ -13,10 +12,10 @@ theme.overrideThemeStyles = ({ rhythm }, options) => ({
     flexDirection: 'column',
   },
   '#___gatsby': {
-    flex: '1 0 auto',
-    backgroundImage: `url(${background})`,
-    backgroundRepeat: 'no-repeat',
-    backgroundSize: 'cover',
+    height: '100vh',
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center'
   },
   'a': {
     color: '#494947',
@@ -33,6 +32,9 @@ theme.overrideThemeStyles = ({ rhythm }, options) => ({
     flexShrink: 0,
     width: '100%'
   },
+  '.header': {
+    textAlign: 'center'
+  },
   '.header > div,.footer > div': {
     margin: '0 auto',
     maxWidth: '800px',
@@ -44,23 +46,13 @@ theme.overrideThemeStyles = ({ rhythm }, options) => ({
     textAlign: 'center',
     color: '#494947',
     minHeight: '3rem',
-    fontFamily: 'sans-serif',
+    fontFamily: 'Work Sans, sans-serif',
     fontSize: '0.75rem'
   },
-  '.content': {
-    margin: '0 auto',
-    maxWidth: '750px',
-    padding: '1rem 1.0875rem 1.45rem',
-    marginTop: '2.5rem',
-    color: 'white',
-    backgroundColor: 'rgb(0,0,0, 0.8)',
-    fontFamily: 'sans-serif',
-    textAlign: 'justify',
-  }
 })
 
-theme.bodyColor = 'white'
-theme.headerColor = 'white'
+theme.bodyColor = 'gray'
+theme.headerColor = 'gray'
 
 const typography = new Typography(theme)
 
