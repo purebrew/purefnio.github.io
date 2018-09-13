@@ -28,6 +28,7 @@ module.exports = class HTML extends React.Component {
           <link rel="mask-icon" href={safariPinedTabIcon} color="#5bbad5"/>
           <meta name="msapplication-TileColor" content="#da532c"/>
           <meta name="theme-color" content="#ffffff"/>
+          <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,700" rel="stylesheet" />
         </head>
         <body {...this.props.bodyAttributes}>
           {this.props.preBodyComponents}
